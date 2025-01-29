@@ -1,0 +1,4 @@
+<app-header-destaque-anime  (valorDinamicoChange)="onValorDinamicoChange($event)"></app-header-destaque-anime>
+
+<app-destaque *ngIf="valorDinamicoDestaqueAnime == true"></app-destaque>
+<app-anime *ngIf="valorDinamicoDestaqueAnime == false"></app-anime>
