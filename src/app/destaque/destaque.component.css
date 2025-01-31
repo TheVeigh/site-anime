@@ -1,20 +1,13 @@
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  }
-
   .conteiner {
 	padding: 20px;
   }
   .destaque {
-	background-color: #f4f4f4;
+	background-color: #c4c4c4;
 	padding: 20px;
 	margin-top: 20px;
   }
   .animes {
-	background-color: #ddd;
+	background-color: #e4e4e4;
 	padding: 15px;
   }
 
@@ -43,3 +36,4 @@ body {
 	padding: 150px 0px;
 	background-position: center center;
 }
+

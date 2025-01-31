@@ -4,3 +4,22 @@
 	padding: 10px;
 	text-align: center;
   }
+ 
+.b{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.a{ 
+	background-color: transparent;
+	padding: 10px 20px;
+	cursor: pointer; 
+	text-align: center;
+}
+		  
+.letras-b {
+	text-decoration: none;
+	color: black;
+}
+	 

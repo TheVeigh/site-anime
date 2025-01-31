@@ -9,6 +9,7 @@ import { HeaderDestaqueAnimeComponent } from './header-destaque-anime/header-des
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,7 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([]),
-
+   
   ],
   providers: [
     provideHttpClient(),

@@ -1,0 +1,72 @@
+{
+    "data": [
+      {
+        "attributes": {
+          "abbreviatedTitles": ["COWBOY BEBOP"],
+          "ageRating": "R",
+          "ageRatingGuide": "17+ (violence & profanity)",
+          "averageRating": "82.23",
+          "canonicalTitle": "Cowboy Bebop",
+          "coverImage": {
+            "large": "https://media.kitsu.app/anime/1/cover_image/large-88da0208ac7fdd1a978de8b539008bd8.jpeg",
+            "original": "https://media.kitsu.app/anime/1/cover_image/fb57e5f25616633a41f0f5f1ded938ee.jpeg",
+            "small": "https://media.kitsu.app/anime/1/cover_image/small-33ff2ab0f599bc15ed73856ecd13fe71.jpeg",
+            "tiny": "https://media.kitsu.app/anime/1/cover_image/tiny-1f92cfe65c1b31d8b47e36f025d32b35.jpeg"
+          },
+          "coverImageTopOffset": 400,
+          "createdAt": "2013-02-20T16:00:13.609Z",
+          "description": "In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \"Cowboys\". The ragtag team aboard the spaceship Bebop are two such individuals...\n\n(Source: MAL Rewrite)",
+          "endDate": "1999-04-24",
+          "episodeCount": 26,
+          "episodeLength": 25,
+          "favoritesCount": 5113,
+          "nextRelease": null,
+          "nsfw": false,
+          "popularityRank": 44,
+          "posterImage": {
+            "large": "https://media.kitsu.app/anime/poster_images/1/large.jpg",
+            "medium": "https://media.kitsu.app/anime/poster_images/1/medium.jpg",
+            "original": "https://media.kitsu.app/anime/poster_images/1/original.jpg",
+            "small": "https://media.kitsu.app/anime/poster_images/1/small.jpg",
+            "tiny": "https://media.kitsu.app/anime/poster_images/1/tiny.jpg"
+          },
+          "ratingFrequencies": {
+            "2": "4317", "3": "61", "4": "423", "5": "39", "6": "211",
+            "7": "40", "8": "4128", "9": "60", "10": "875", "11": "84",
+            "12": "2567", "13": "169", "14": "8943", "15": "462",
+            "16": "9262", "17": "944", "18": "11255", "19": "853", "20": "37520"
+          },
+          "ratingRank": 143,
+          "showType": "TV",
+          "slug": "cowboy-bebop",
+          "startDate": "1998-04-03",
+          "status": "finished",
+          "subtype": "TV",
+          "synopsis": "In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \"Cowboys\". The ragtag team aboard the spaceship Bebop are two such individuals...\n\n(Source: MAL Rewrite)",
+          "tba": null,
+          "titles": {
+            "en": "Cowboy Bebop",
+            "en_jp": "Cowboy Bebop",
+            "ja_jp": "カウボーイビバップ"
+          },
+          "totalLength": 626,
+          "updatedAt": "2025-01-29T00:00:32.884Z",
+          "userCount": 159143,
+          "youtubeVideoId": "qig4KOK2R2g"
+        },
+        "id": "1",
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1"
+        },
+        "relationships": {
+          "genres": {},
+          "categories": {},
+          "castings": {},
+          "installments": {},
+          "mappings": {}
+        },
+        "type": "anime"
+      }
+    ]
+  }
+  
