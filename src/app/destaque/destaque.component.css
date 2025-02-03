@@ -29,7 +29,8 @@
   }
 
   .banner {
-	margin-top: 50px;
+    height: 150px;
+	width: auto;
 	background-image: url(https://wallpapercave.com/wp/wp8935181.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
