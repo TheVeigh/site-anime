@@ -1,44 +1,10 @@
-
 <div class="box-container">
-    <div class="box">
-        <div class="box-content">
-            <img src="https://vortexcultural.com.br/images/2017/09/deathnotetop.jpg" alt="Imagem 1">
-            <h3>Death Note</h3>
-        </div>
-    </div>
 
-    <div class="box">
-        <div class="box-content">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/7/74/Dragon_Ball_Super_Key_visual.jpg" alt="Imagem 2">
-            <h3>DragonBall Super</h3>
-        </div>
+  <div class="box" *ngFor="let anime of animes">
+    <div class="box-content">
+      <img [src]="anime.imageUrl" [alt]="anime.title">
+      <h3>{{ anime.title }}</h3>
     </div>
+  </div>
 
-    <div class="box">
-        <div class="box-content">
-            <img src="https://static.anroll.net/images/animes/capas/naruto-dublado.jpg" alt="Imagem 3">
-            <h3>Naruto Classico</h3>
-        </div>
-    </div>
-    <div class="box">
-        <div class="box-content">
-            <img src="https://vortexcultural.com.br/images/2017/09/deathnotetop.jpg" alt="Imagem 1">
-            <h3>Death Note</h3>
-        </div>
-    </div>
-
-    <div class="box">
-        <div class="box-content">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/7/74/Dragon_Ball_Super_Key_visual.jpg" alt="Imagem 2">
-            <h3>DragonBall Super</h3>
-        </div>
-    </div>
-
-    <div class="box">
-        <div class="box-content">
-            <img src="https://static.anroll.net/images/animes/capas/naruto-dublado.jpg" alt="Imagem 3">
-            <h3>Naruto Classico</h3>
-        </div>
-    </div>
 </div>
-    

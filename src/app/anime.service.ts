@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 
-interface Anime {
+export interface Anime {
+  id: string;
   title: string;
   imageUrl: string;
 }
@@ -12,19 +13,28 @@ interface Anime {
   providedIn: 'root'
 })
 export class AnimeService {
-  // Usando a URL de todos os animes
-  private apiUrl = 'https://kitsu.io/api/edge/anime';
 
-  constructor(private http: HttpClient) { }
+  private apiUrl = 'https://api.jikan.moe/v4/anime';
+
+  constructor(private http: HttpClient) {}
 
   getAnimes(): Observable<Anime[]> {
     return this.http.get<any>(this.apiUrl).pipe(
-      map(response =>
-        response.data.map((anime: any) => ({
-          title: anime.attributes.canonicalTitle,
-          imageUrl: anime.attributes.posterImage.large
+
+      // 👇 DEBUG (confirme no console)
+      tap(res => {
+        console.log('RESPOSTA JIKAN:', res);
+        console.log('PRIMEIRO ITEM:', res.data?.[0]);
+      }),
+
+      map(res =>
+        res.data.map((anime: any) => ({
+          mal_id: anime.mal_id,                          // ✅ Jikan
+          title: anime.title,                            // ✅ Jikan
+          imageUrl: anime.images?.jpg?.large_image_url   // ✅ Jikan
         }))
       )
     );
   }
 }
+    
