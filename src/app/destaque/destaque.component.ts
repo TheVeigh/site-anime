@@ -15,7 +15,7 @@ export class DestaqueComponent {
   constructor(private animeService: AnimeService) {}
 
   ngOnInit() {
-   // 👈 carrega automático
+   this.olhaValor();  // 👈 AGORA carrega automático
   }
 
   olhaValor() {

@@ -8,6 +8,7 @@ import { DestaqueComponent } from './destaque/destaque.component';
 import { HeaderDestaqueAnimeComponent } from './header-destaque-anime/header-destaque-anime.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { AnimeBoxComponent } from './anime-box/anime-box.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
     DestaqueComponent,
     AnimeComponent,
     HeaderDestaqueAnimeComponent,
+    AnimeBoxComponent,
     
   ],
   imports: [
