@@ -1,0 +1,23 @@
+.barra-fixa-logo, .barra-fixa-logo-final {
+	background-color:white;
+	color: white;
+	padding: 10px;
+	text-align: center;
+  }
+
+  .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ color: black;
+  }
+
+  .social-icons a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .social-icons a:hover {
+    color: #555;
+}
