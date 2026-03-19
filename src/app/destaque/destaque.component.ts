@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
-import { AnimeService } from '../anime.service';
+import { Component, OnInit } from '@angular/core';
+import { AnimeService, Anime } from '../anime.service';
 
 @Component({
   selector: 'app-destaque',
   standalone: false,
-  
+
   templateUrl: './destaque.component.html',
   styleUrl: './destaque.component.css'
 })
-export class DestaqueComponent {
-  animes: { id: string; title: string; imageUrl: string }[] = [];
+export class DestaqueComponent implements OnInit {
+  animes: Anime[] = [];
   loading = true;
 
   constructor(private animeService: AnimeService) {}

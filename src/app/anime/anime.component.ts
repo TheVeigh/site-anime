@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class AnimeComponent {
 
   // 👇 RECEBE OS ANIMES DO DESTAQUE
-  @Input() animes: { id: string; title: string; imageUrl: string }[] = [];
+  @Input() animes: { mal_id: string; title: string; imageUrl: string }[] = [];
 
   constructor(private router: Router) {}
 

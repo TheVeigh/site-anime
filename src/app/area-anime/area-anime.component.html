@@ -1,0 +1,7 @@
+ <app-header-destaque-anime></app-header-destaque-anime>
+  <div class="animes">
+    <app-anime [animes]="animes"></app-anime>
+
+    <div *ngIf="loading" class="loading-indicator">Carregando animes...</div>
+  </div>
+ <app-footer></app-footer>

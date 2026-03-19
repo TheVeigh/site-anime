@@ -9,6 +9,7 @@ import { HeaderDestaqueAnimeComponent } from './header-destaque-anime/header-des
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { AreaAnimeComponent } from './area-anime/area-anime.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
     AnimeComponent,
     HeaderDestaqueAnimeComponent,
     FooterComponent,
+    AreaAnimeComponent,
     
   ],
   imports: [
