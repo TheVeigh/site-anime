@@ -1,28 +1,16 @@
 <div class="conteiner">
-    <div class="banner">
-
-    </div>
+  <div class="banner"></div>
 </div>
 <!-- por incrivel que pareça o banner ta no css  -->
 <div class="destaque">
-    <h2>Destaque</h2>
-   <div class="animes">
-
+  <h2>Destaque</h2>
+  <div class="animes">
     <app-anime [animes]="animes"></app-anime>
 
-   <div
-   
-    *ngIf="loading"
-      class="loading-indicator"
-    >
-      Carregando animes...
-    </div>
-</div>
-
+    <div *ngIf="loading" class="loading-indicator">Carregando animes...</div>
+  </div>
 </div>
 
 <div class="barra-fixa-logo-final">
-    <p>Rodapé ou informações adicionais.</p>
+  <app-footer></app-footer>
 </div>
-
-
